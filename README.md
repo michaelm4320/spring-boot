@@ -22,5 +22,15 @@ Rendering: The View is then rendered, which means it's converted into the HTML t
 
 Response: The HTML page is sent as a response to the user's browser, and the user sees the web page on their screen.
 
+# How to run
+
+Ensure IntelliJ is using Command Prompt Terminal. File > Tools > Terminal > Shell Path: cmd.exe
+
+On the terminal type 'mvnw.cmd spring-boot:run'
+
+On your web browser go to http://localhost:8080/myendpoint/
+
+To check health of springboot application go to http://localhost:8080/myendpoint/actuator/health
+
 # Resource
 https://spring.io/guides/gs/spring-boot/#scratch
